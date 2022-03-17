@@ -1,0 +1,114 @@
+@media (max-width: 540px) {
+    .container{
+        display: block;
+    }
+
+    .main{
+        padding: 80px 0;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .profile{
+        margin: 0 auto 30px;
+        width: 88%;
+       height: 260px;
+    }
+    .dashboard{
+        width: 100%;
+         justify-content: center;
+    }
+
+    .main{
+        width: 100%;
+    }
+
+    .info{
+        align-items: center;
+    }
+
+    .info img{
+        width: 90px;
+        height: 90px;
+    }
+    
+    .dashboard-item{
+        width: 88%;
+        height: 200px;
+    }
+
+    .info-text{
+        margin-left: 20px;
+    }
+
+
+    .name{
+        font-size: 26px;
+        font-weight: 300;
+    }
+
+    .date-items{
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .attribution{
+        padding: 12px ;
+    }
+
+    .dashboard-header{
+        margin: unset;
+    }
+
+.dashboard-content{
+    padding: 24px;
+}
+
+.date{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+}
+
+
+
+@media (min-width: 541px) {
+    .container{
+        flex-direction: column;
+    }
+
+    .profile{
+        margin-left: 20px;
+    }
+
+    .attribution{
+        position: absolute;
+        bottom: 12px;
+    }
+    
+    .dashboard{
+        justify-content: right;
+    }
+
+    .name{
+        font-size: 40px;
+        font-weight: 300;
+    }
+
+    .info{
+        flex-direction: column;
+        padding-left: 36px;
+    }
+
+    .info img{
+        margin-bottom: 40px;
+    }
+
+    .date-items{
+        padding: 36px;
+    }
+
+}
